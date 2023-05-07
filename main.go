@@ -1,5 +1,12 @@
-package eucleidesAlgorithm
+package main
+
+import (
+	"fmt"
+
+	"github.com/crnvl96/eucleidesAlgorithm/helpers"
+)
 
 func main() {
-	CalculateMaxTerrainSize(1680, 640)
+	size := helpers.CalculateMaxTerrainSize(1680, 640)
+	fmt.Println(size)
 }

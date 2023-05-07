@@ -1,4 +1,4 @@
-package eucleidesAlgorithm
+package helpers
 
 func getGreaterSize(height int, width int) (int, int) {
 	var greaterSize int
